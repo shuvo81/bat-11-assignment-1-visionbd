@@ -24,6 +24,11 @@
 .color-2{
     color: #006A50;
 }
+.section-title{
+    font-size: 40px;
+    font-weight: 700;
+    color: #0E0E0E;
+}
 /* Header Styles */
 body{
     background-color: #F1F1F3;
@@ -77,3 +82,16 @@ nav .logo{
     width: 475px;
 }
 
+/* Main Styles */
+.pillar-bd-boxes{
+    display: flex;
+    gap: 24px;
+}
+.pillar-bd-boxes .box{
+    background-color: #FFFFFF;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+}
+.box-content{
+    padding: 24px;
+}
