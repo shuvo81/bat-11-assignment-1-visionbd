@@ -29,6 +29,19 @@
     font-weight: 700;
     color: #0E0E0E;
 }
+.box-title{
+    font-size: 20px;
+    font-weight: 700;
+    color: rgba(14, 14, 14, 0.8);
+    margin-bottom: 12px;
+}
+.box-info{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.7);
+    line-height: 24px;
+}
+
 /* Header Styles */
 body{
     background-color: #F1F1F3;
@@ -82,16 +95,100 @@ nav .logo{
     width: 475px;
 }
 
-/* Main Styles */
+/* Pillars of "Bangladesh 2.0 Section Styles */
 .pillar-bd-boxes{
     display: flex;
     gap: 24px;
+}
+.pillar-bd .section-title{
+    margin-bottom: 32px;
 }
 .pillar-bd-boxes .box{
     background-color: #FFFFFF;
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
 }
-.box-content{
+.pillar-box-content{
+    padding: 24px 24px 0;
+}
+
+/* The Vision of Future Section Styles */
+.vision-future-boxes{
+    display: flex;
+    gap: 24px;
+}
+.vision-future .section-title{
+    margin-bottom: 24px;
+}
+.vision-future-boxes .box{
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+}
+.vision-future-box-content{
+    padding: 32px;
+}
+.vision-future-box-content .box-info{
+    margin-bottom: 48px;
+}
+
+.sky-blue-card{
+    background-color: rgba(84, 144, 245, 0.2);
+    border: 1px  solid #5490F5;
+}
+
+.green-card{
+    background-color: #C6E4D6;
+    border: 1px  solid #09A15C;
+}
+
+.yellow-card{
+    background-color: #F7EBCF;
+    border: 1px  solid #FFC239;
+}
+.sky-blue-button, .green-button, .yellow-button{
+    padding: 11px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px;
+    color: #FFFFFF;
+    border: none;
+}
+.sky-blue-button{
+    background-color: #5490F5;
+}
+.green-button{
+    background-color: #09A15C;
+}
+.yellow-button{
+    background-color: #FFC239;
+}
+
+/* Dr. Yunus Opinion Section Styles */
+.yunus-speaking{
+    background-color: #FFFFFF;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    margin-top: 32px;
+}
+.opinion{
     padding: 24px;
+    overflow: visible;
+}
+.opinion .text {
+    margin-top: -62px;
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 16px;
+    line-height: 24px;
+}
+.author-designation{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.6);
+    line-height: 24px;
+}
+
+.opinion-matters{
+    background-color: #FFFFFF;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    margin-top: 32px;
 }
