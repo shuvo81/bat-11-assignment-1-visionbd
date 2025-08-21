@@ -186,9 +186,87 @@ nav .logo{
     line-height: 24px;
 }
 
-.opinion-matters{
+
+/* Your Opinion Matters Section Styles */
+.opinion-bg{
+    background-color: #FFFFFF;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    margin-top: 32px;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+}
+
+.opinion-matters .section-title{
+    margin-bottom: 24px;
+}
+.inner-div{
+    padding: 32px;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td {
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    padding: 24px;
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  th {
+    padding: 24px;
+    text-align: left;
+    background-color: #C6E4D6;
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  select{
+    background-color: #C6E4D6;
+    border: 1px solid #0E0E0E;
+    padding: 12px 16px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+table tr  .no-pad{
+    padding-left: 0;
+}
+
+
+/* Recent News Section All Styles */
+  .main-div{
+    display: flex;
+    gap: 32px;
     background-color: #FFFFFF;
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
-    margin-top: 32px;
+    padding: 48px;
+    margin-bottom: 24px;
+  }
+
+  .div-container .headline{
+    font-size: 32px;
+    font-weight: 700;
+    color: rgba(14, 14, 14, 0.8);
+    margin-top: 8px;
+    margin-bottom: 12px;
+  }
+  .div-container .satellite-img{
+    border-radius: 24px;
 }
+.div-container .aljazeera-img{
+    margin-bottom: 4px;
+}
+.div-container .date-time{
+    margin-bottom: 12px;
+}
+/* .div-container .box-info{
+    margin-bottom: 32px;
+} */
+  
