@@ -17,6 +17,9 @@
     font-weight: 600;
     border-radius: 8px;
 }
+.text-center{
+    text-align: center;
+}
 .color-1{
     color: #0E0E0E;
 }
@@ -266,7 +269,47 @@ table tr  .no-pad{
 .div-container .date-time{
     margin-bottom: 12px;
 }
-/* .div-container .box-info{
-    margin-bottom: 32px;
-} */
   
+/* Donate Today Section Styles */
+.donate-today .box-info{
+    padding-left: 88px;
+    padding-right: 88px;
+}
+.money-main-div{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.money-amount{
+    font-size: 40px;
+    font-weight: 700;
+    color: rgba(14, 14, 14, 0.8);
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 16px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    
+}
+.money-main-div .green-bg{
+    background-color: #C6E4D6;
+}
+
+.enter-amount input[type="text"]{
+    color: rgba(14, 14, 14, 0.3);
+    width: 1032px;
+    height: 64px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    outline-style: none;
+    margin-bottom: 32px;
+}
+
+.enter-amount input::placeholder{
+    text-align: center;
+}
+
+.donate-btn{
+    text-align: center;
+}
