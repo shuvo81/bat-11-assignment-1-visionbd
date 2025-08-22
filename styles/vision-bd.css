@@ -313,3 +313,61 @@ table tr  .no-pad{
 .donate-btn{
     text-align: center;
 }
+
+
+/* Subscribe Newsletter Section Styles */
+.subscribe-newsletter{
+    background-color: #C6E4D6;
+    border-radius: 24px;
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
+    -ms-border-radius: 24px;
+    -o-border-radius: 24px;
+
+    margin: 80px 100px;
+}
+.content-div{
+    padding: 80px 100px;
+    text-align: center;
+    width: 750px;
+    height: 235px;
+    margin: 0 auto;
+}
+.content-div .section-title{
+    margin-bottom: 16px;
+}
+.content-div .box-info{
+    margin-top: 24px;
+}
+
+.subscribe-box {
+    display: flex;
+    align-items: center;
+  }
+  
+  .subscribe-box input {
+    padding: 18px;
+    border: none;
+    outline: none;
+    border-radius: 8px 0 0 8px;
+    flex: 1;
+    -webkit-border-radius: 8px 0 0 8px;
+    -moz-border-radius: 8px 0 0 8px;
+    -ms-border-radius: 8px 0 0 8px;
+    -o-border-radius: 8px 0 0 8px;
+}
+  .subscribe-box input::placeholder{
+    padding: 18px 403px 18px 40px;
+    color: rgba(14, 14, 14, 0.3);
+    font-size: 16px;
+}
+  
+  .subscribe-box .button-primary {
+    border-radius: 0 8px 8px 0;
+    -webkit-border-radius: 0 8px 8px 0;
+    -moz-border-radius: 0 8px 8px 0;
+    -ms-border-radius: 0 8px 8px 0;
+    -o-border-radius: 0 8px 8px 0;
+}
+  
+
